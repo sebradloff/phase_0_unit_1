@@ -23,10 +23,10 @@ table.table{
 	float: left;
 }
 
-a:link {color:black;}    /* unvisited link */
-a:visited {color:#black;} /* visited link */
-a:hover {color:red;}   /* mouse over link */
-a:active {color:black;}  /* selected link */
+a:link {color:black;}    
+a:visited {color:#black;} 
+a:hover {color:red;}   
+a:active {color:black;}  
 
 .analysis{
 	margin-left: 305px;
