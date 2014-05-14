@@ -11,5 +11,5 @@
 * 2) Good: You control exactly how you want your information presented.
 	 Bad: You control exactly how you want your information presented.
 	 It's great that you have so much control over the environment, but if you don't know all the syntax and what is available, it can be very frustrating.
-* 3) Not any true "aha" moments yet. I think I need to play around with it a bit more to truly understand it. Linking the CSS file to the HTML file was at first difficult to understand. I now realize that you had to place the link for you CSS file in the HTML file.
+* 3) No true "aha" moments yet. I think I need to play around with it a bit more to truly understand it. Linking the CSS file to the HTML file was at first difficult to understand. I now realize that you had to place the link for you CSS file in the HTML file.
 * 4) Someone posted in our G+ group about this CSS website which helped quite a bit: www.w3schools.com 
