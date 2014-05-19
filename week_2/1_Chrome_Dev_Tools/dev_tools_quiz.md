@@ -4,14 +4,16 @@
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
-  * Realtime editing of HTML and CSS 
-  * Javascript Debugging
-  * Performance Optimization 
+  * Realtime editing of HTML and CSS: Realtime editing for HTML akes place in the Elements tab, where you can select a specific element to edit it's CSS styling in the right hand side of the screen under the Styles tab.
+  * Javascript Debugging: The conosle tab is best for debugging.
+  * Performance Optimization: The network tab is great to see load times and file sizes, to bettter optimize our webpage. Also, the Pagespeed Chrome extenstion helps detect latencies and makes page speed optimization suggestions. 
 
 * What's the quick key for your OS to spawn the Dev Tools inspector?
+  * Option+ Command + I
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
+    * Background-color is #0b0f11. Using the color picker, you can see it's a blackish blue
   * Tweak the background color to white.
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
@@ -19,9 +21,11 @@
   * Upload your own image to the imgs directory in the `1_Chrome_Dev_Tools` directory.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
 
 * For the postmachina website, why can't you tweak the color of the text "The most important things are not things"?  Please explain.
-
+  * Because it's an image and not actually text being displayed.
 * Go to www.ticketswizard.com and analyze the page.  
-  * What is the largest image on the website? 
+  * What is the largest image on the website?: 322 B: lg-share-en.gif  
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
+    * First I went to the website, opened Dev Tools, and selected the Network tab. There, I reloaded the webpage, filtered by images and then their size. http://s7.addthis.com/static/btn/v2/lg-share-en.gif
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+  *Probably optimizing the image size: it elimninates 885.9KiB of data.
