@@ -1,1 +1,47 @@
-/* include your css here */
+title{
+	font-size: 16px;
+	font: Helvetica;
+}
+header h1{
+    text-align:center;
+}
+body{
+    position:relative;
+    width:100%;
+}
+#col-md-2a{
+    position:absolute;
+    margin-right:85%;
+    top:10.8%;
+    padding-left:1%;
+    padding-right:1%;
+    border:2px solid red;
+}
+
+#col-md-2a img{
+    padding-top: 45%;
+    
+}
+#col-md-2b{
+    margin-left:85%;
+    top:10.8%;
+    position:absolute;
+    padding-right:1%;
+    padding-left:1%;
+    border:2px solid blue;
+}
+#col-mb-2b h2,#col-mb-2b p{
+    float:right;
+    
+}
+
+#col-md-8{
+    width:66%;
+    margin-left:17%;
+    border:2px solid grey;
+}
+
+
+#pair_program h2{
+    text-align:center;
+}
