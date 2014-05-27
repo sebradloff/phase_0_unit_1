@@ -1,11 +1,39 @@
-// I paired [by myself, with:] on this challenge.
+// I paired with Robert Schwartz on this challenge.
 
 // __________________________________________
 // Write your code below.
+function assert(test, message, test_number) {
+  if (!test) {
+    console.log(test_number + "false");
+    throw "ERROR: " + message;
+  }
+  console.log(test_number + "true");
+  return true;
+}
 
+var secretNumber = 5;
 
+assert(
+  (typeof secretNumber === 'number'),
+  "The value of secretNumber should be a number.",
+  "1. "
+)
 
+var secretNumber = 7;
 
+assert(
+  secretNumber === 7,
+  "The value of secretNumber should be 7.",
+  "2. "
+)
+
+var password = "hello";
+
+assert(
+  typeof password === 'string',
+  "The value of password should be a string.",
+  "3. "
+)
 
 
 
