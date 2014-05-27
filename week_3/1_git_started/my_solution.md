@@ -57,3 +57,11 @@ Define the following commands and describe how they work/what they do.
 3. Cause (explain the error)
 
 ## Release 6: Reflection
+
+* 1) The main issue I faced was using the command line, where to initialize the git repository for and how to push it. None of this was truly explained and it honestly should be. Blind faith would be great to at least begin to comprehend what the hell is going on. Reading through the majority of the material is dense and not really actionable for me as a beginner using git. 
+* 2) Read above
+* 3) Still having trouble using the command line but am going to keep working with it to see how it all works.
+* 4) I learned how to use git and push to github from the command line.
+* 5) Not completely comfortable with those changes yet, but I will be soon.
+* 6) I enjoyed reading about git and github, going through the interactive tutorials was nice.
+* 7) Nothing was necessarily tedious, just wish there was a little more hand holding for the portion of where to init the git and how to push specifically.
