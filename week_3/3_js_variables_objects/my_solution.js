@@ -87,7 +87,21 @@ assert(
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
+// * What parts of your strategy worked? What problems did you face?
+//   * I worked as the driver since I had a better understanding of JavaScript and was able to lead Robert through 
+//   any sections he had trouble with. I think it worked really well. He picked up on the strategy very quickly.
+// * What questions did you have while coding? What resources did you find to help you answer them?  
+//   * None. Besides refactoring using .unshift and .push. Answered them using the intro JavaScript materials.
+// * What concepts are you having trouble with, or did you just figure something out? If so, what?  
+//   * None yet.
+// * Did you learn any new skills or tricks?
+//   * Using unshift and push.
+// * How confident are you with each of the Learning Competencies? 
+//   * Confident with each of the Learning Competencies.
+// * Which parts of the challenge did you enjoy?
+//   * All of it was straight forward and easy, but I enjoyed following how the function was called and figuring out what was missing.
+// * Which parts of the challenge did you find tedious?
+//   * N/A
 // 
 // 
 // 
