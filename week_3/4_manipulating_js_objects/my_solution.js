@@ -52,7 +52,22 @@ adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
+// What parts of your strategy worked? What problems did you face?
+//   * I began with pseudocoding and used that to code my project. THis made things go relatively quickly.
+// What questions did you have while coding? What resources did you find to help you answer them?
+//   * I had to figure out how the children object was to be created. It took me a while to realize we were not supposed to modify
+//   the terah code at all, even reproducing it in our own code. From their, I looked up some object literal notation and was fine.
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+//   * Creating object literals without manipulating it from insde the instance of the object.
+// Did you learn any new skills or tricks?
+//   * creating objects within objects through object literal notation that I had not yet used.
+// How confident are you with each of the Learning Competencies?
+//   * I am now very confident in all three of those learning Competencies.
+// Which parts of the challenge did you enjoy?
+//   * I enjoyed testing each piece, making the whole process more enjoyable. Actionable feedback as your progress through the excercies
+//   was great to see.
+// Which parts of the challenge did you find tedious?
+//   * N/A
 // 
 // 
 // 
