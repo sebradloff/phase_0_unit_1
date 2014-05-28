@@ -16,9 +16,35 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+// create object 'adam', name = "Adam"
+// edit terah spouse = adam
+// edit terah weight = 125
+// delete terah eyeColor
+// set terah.spouse.spouse to terah
+// create object terah.children
+// create carson property on terah.children, name = "Carson"
+// create carter property on terah.children, name = "Carter"
+// create colton property on terah.children, name = "Colton"
+// adam.children = terah.children
+
+var adam = {
+  name: "Adam",
+  spouse: terah
+}
+
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+terah.spouse.spouse = terah;
+
+terah.children = [];
+
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
 
 
-
+adam.children = terah.children;
 
 
 
