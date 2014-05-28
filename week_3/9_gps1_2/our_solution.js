@@ -6,40 +6,81 @@
 
 
 // 0. "YOU SIGNED... WHO?!"
+var adamSandler = { 
+  name: 'Adam Sandler', 
+  age: 47, 
+  quote: "That's your home! Are you too good for your home?!"
+};
 
+var kristenBell = { 
+  name: 'Kristen Bell', 
+  age: 33, 
+  quote: "Do you wanna build a snowman?"
+};
 
+var jimCarrey = { 
+  name: 'Jim Carrey', 
+  age: 52, 
+  quote: "...So you're telling me there's a chance? YEAH!"
+};
 
-
-// 1. "Here they Come!"
-
-
-
-
-
-// 2. "TIME IS MONEY!"
-
-//YOUR CODE HERE!
+function Client(name, age, quote) {
+  this.name = name;
+  this.age = age;
+  this.quote = quote;
+  this.infoDisplay = function(){
+    return console.log("Actor name is " + this.name + ", age is " + this.age + ", and quote is " + '"'+this.quote+'"');  
+  }
+  this.showQuote = function(){
+     return console.log("'" + this.quote + "'")
+  }
+  this.showRep = function(){
+      return console.log("rockstarReps")
+  }
+  this.newDim = function(nameDimension){
+      this.nameDimension = nameDimension;
+  }
+};
 
 var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
 shooterMcGavin.constructor === Client;
 shooterMcGavin.age === 48;
 shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to what I say.";
 
+shooterMcGavin.infoDisplay();
+shooterMcGavin.showQuote();
+
+shooterMcGavin.newDim("weight");
+shooterMcGavin.weight = 155;
+shooterMcGavin.weight;
 
 
+// function cat(name) {
+// 	this.name = name;
+// 	this.talk = function() {
+// 		alert( this.name + " say meeow!" )
+// 	}
+// } 
+
+// var person = { 
+//   firstName: 'Frank', 
+//   lastName: 'Hardy', 
+//   age: 25,
+//   telephone: '555-555-1234',
+//   email: 'fhardy@example.com'
+// };
+
+// Object Constructor example
+
+// :
+
+// function Car(make, model, year) {
+//   this.make = make;
+//   this.model = model;
+//   this.year = year;
+// }
 
 
-// 3. "SHOW 'EM OFF!"
-
-
-
-
-
-// 4. "But wait, there's more!"
-
-
-
-// 5.  ** BONUS **
 
 
 //  6.  Your Reflection:
