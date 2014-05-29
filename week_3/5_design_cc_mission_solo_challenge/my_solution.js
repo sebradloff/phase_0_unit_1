@@ -80,13 +80,27 @@ console.log(hero1.name + ", it's your job to kill all ogres and break down the b
 
 // Refactored Code
 
+// I have taken some serious time to think about how I could refactor this and have determined there is no way to do that.
 
 
 
 
 
 // Reflection
-// 
+// What parts of your strategy worked? What problems did you face?
+// 	* Writing out my objectives was a great outline. From there I wrote Pseudocode and finally wrote out my code in full.
+// What questions did you have while coding? What resources did you find to help you answer them?
+// 	* What the random num generator function was. Simple google search found it on w3schools
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+// 	* N/A
+// Did you learn any new skills or tricks?
+// 	* Using Math.random()
+// How confident are you with each of the Learning Competencies?
+// 	* I feel confident in the first two objectives but not the bonus portion yet.
+// Which parts of the challenge did you enjoy?
+// 	* I enjoyed creating the objects and thinking about their functions in the game.
+// Which parts of the challenge did you find tedious?
+// 	* N/A
 // 
 // 
 // 
